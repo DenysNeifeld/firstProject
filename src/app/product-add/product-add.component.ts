@@ -10,7 +10,7 @@ import { ProductsService } from '../products.service';
 export class ProductAddComponent implements OnInit {
 
   angForm: FormGroup;
-  constructor(private fb: FormBuilder, private ps: ProductsService) { 
+  constructor(private fb: FormBuilder, private ps: ProductsService) {
     this.createForm();
   }
 

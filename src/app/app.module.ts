@@ -9,7 +9,7 @@ import { ProductEditComponent } from './product-edit/product-edit.component';
 import { SlimLoadingBarModule } from 'ng2-slim-loading-bar';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { ProductService } from './products.service';
+import { ProductsService } from './products.service';
 
 @NgModule({
   declarations: [
@@ -25,7 +25,7 @@ import { ProductService } from './products.service';
     ReactiveFormsModule,
     HttpClientModule
   ],
-  providers: [ProductService],
+  providers: [ProductsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
